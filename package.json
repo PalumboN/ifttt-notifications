@@ -1,0 +1,28 @@
+{
+  "name": "ifttt-notifications",
+  "version": "1.0.0",
+  "description": "Web app for send iFTTT mobile notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalumboN/ifttt-notifications.git"
+  },
+  "author": "PalumboN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalumboN/ifttt-notifications/issues"
+  },
+  "homepage": "https://github.com/PalumboN/ifttt-notifications#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "coffee-script": "^1.10.0",
+    "express": "^4.14.0",
+    "lodash": "^4.14.2",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  }
+}
