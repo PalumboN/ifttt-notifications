@@ -19,6 +19,7 @@
   "homepage": "https://github.com/PalumboN/ifttt-notifications#readme",
   "dependencies": {
     "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
     "coffee-script": "^1.10.0",
     "express": "^4.14.0",
     "lodash": "^4.14.2",
