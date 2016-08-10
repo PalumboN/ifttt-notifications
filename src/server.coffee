@@ -20,6 +20,10 @@ app.post '/notification', (req, res) ->
   .then (response) -> res.send response
   .catch ({statusCode, message}) -> res.status(statusCode).send message
 
+app.post '/clean', (req, res) ->
+  messages.length = 0
+  res.end()
+
 
 app.listen port, ->
   console.log "Listen port #{port}"
